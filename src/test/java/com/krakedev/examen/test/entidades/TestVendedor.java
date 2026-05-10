@@ -6,7 +6,7 @@ public class TestVendedor {
 
 	public static void main(String[] args) {
 		
-		Vendedor vendedor = new Vendedor("1234567890");
+		Vendedor vendedor = new Vendedor("1234567890","V");
         vendedor.setSueldoFijo(800.0);
         vendedor.setNumeroVentas(10);
         vendedor.setComisionPorVenta(50.0);

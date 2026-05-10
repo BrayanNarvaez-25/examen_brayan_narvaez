@@ -10,7 +10,7 @@ public class TestAdmin {
         AdminVentas admin = new AdminVentas();
 
         // Vendedor normal
-        Vendedor v1 = new Vendedor("1111111111");
+        Vendedor v1 = new Vendedor("1111111111","V");
         v1.setSueldoFijo(800.0);
         v1.setNumeroVentas(10);
         v1.setComisionPorVenta(50.0);

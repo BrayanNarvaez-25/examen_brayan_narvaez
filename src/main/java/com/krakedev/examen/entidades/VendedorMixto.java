@@ -3,7 +3,7 @@ package com.krakedev.examen.entidades;
 public class VendedorMixto extends Vendedor{
 	
 	public VendedorMixto(String cedula) {
-        super(cedula);
+        super(cedula, "M");
     }
 
     @Override
